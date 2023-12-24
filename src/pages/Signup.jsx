@@ -1,7 +1,7 @@
 // Import necessary React and Firebase modules
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
-import { firebaseAuth } from '../utils/firebase-config';
+import { firebaseAuth } from '../firebase-config';
 
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);
